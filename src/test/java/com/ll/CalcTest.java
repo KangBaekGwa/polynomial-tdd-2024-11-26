@@ -61,7 +61,7 @@ public class CalcTest {
 
     @DisplayName("(1 + 2) * 4 / 2 = ?")
     @Test
-    void 복합한_다형식_계산1() {
+    void 복잡한_다형식_계산1() {
         // given
         String polynomial = "(1 + 2) * 4 / 2";
 
@@ -74,7 +74,7 @@ public class CalcTest {
 
     @DisplayName("((1 + 2) * 4) / 2 = ?")
     @Test
-    void 복합한_다형식_계산2() {
+    void 복잡한_다형식_계산2() {
         // given
         String polynomial = "((1 + 2) * 4) / 2";
 
@@ -87,7 +87,7 @@ public class CalcTest {
 
     @DisplayName("3 + 5 * 2 - (6 / 3) = ?")
     @Test
-    void 복합한_다형식_계산3() {
+    void 복잡한_다형식_계산3() {
         // given
         String polynomial = "3 + 5 * 2 - (6 / 3)";
 
@@ -100,7 +100,7 @@ public class CalcTest {
 
     @DisplayName("(3 + 2) * (5 + 1) / 2 = ?")
     @Test
-    void 복합한_다형식_계산4() {
+    void 복잡한_다형식_계산4() {
         // given
         String polynomial = "(3 + 2) * (5 + 1) / 2";
 
@@ -113,7 +113,7 @@ public class CalcTest {
 
     @DisplayName("8 + (4 * 3) - (6 / 2) = ?")
     @Test
-    void 복합한_다형식_계산5() {
+    void 복잡한_다형식_계산5() {
         // given
         String polynomial = "8 + (4 * 3) - (6 / 2)";
 
@@ -126,7 +126,7 @@ public class CalcTest {
 
     @DisplayName("((7 + 3) * 4) / (2 + 1) = ?")
     @Test
-    void 복합한_다형식_계산6() {
+    void 복잡한_다형식_계산6() {
         // given
         String polynomial = "((7 + 3) * 4) / (2 + 1)";
 
@@ -139,7 +139,7 @@ public class CalcTest {
 
     @DisplayName("(9 * (4 - 2)) + (5 / (1 + 4)) = ?")
     @Test
-    void 복합한_다형식_계산7() {
+    void 복잡한_다형식_계산7() {
         // given
         String polynomial = "(9 * (4 - 2)) + (5 / (1 + 4))";
 
@@ -152,7 +152,7 @@ public class CalcTest {
 
     @DisplayName("2 - 1 * 2 = ?")
     @Test
-    void 복합한_다형식_계산8() {
+    void 복잡한_다형식_계산8() {
         // given
         String polynomial = "2 - 1 * 2";
 
